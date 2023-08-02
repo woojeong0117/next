@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <body>
-        <h1><Link href='/'>WEB</Link></h1>
+        <h1><Link href='/'>WElCOME</Link></h1>
         <ol>
           <li><Link href="/read/1">html</Link></li>
           <li><Link href="/read/2">css</Link></li>
