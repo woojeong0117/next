@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
 
-module.exports = nextConfig
+module.exports = {
+    assetPrefix:
+      process.env.NODE_ENV === "production"
+        ? "https://boramyy.github.io/invitation"
+        : "",
+  };

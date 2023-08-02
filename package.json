@@ -2,11 +2,13 @@
   "name": "next",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://woojeong0117.github.io/next.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "autoprefixer": "10.4.14",
