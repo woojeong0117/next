@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
     <h2>Welcome</h2>
-    Hello, WEB!
+    Hello, WEB!<br/>
     <img src="/logo 1.svg" alt="" />
     </>
   )
