@@ -18,10 +18,11 @@ export default function Create() {
                     {title, body}
                 )
             }
-            fetch(`http://localhost:9999/topics`, options)
+            fetch(process.env.NEXT_PUBLIC_API_URL+`topics`, options)
             .then(res=> res.json())
             .then(result=> {
                 const lastId = result.id
+                router.refresh()
                 router.push(`/read/${lastId}`)
             })
         }}>
